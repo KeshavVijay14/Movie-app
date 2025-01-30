@@ -21,9 +21,8 @@ export default async function Home({ searchParams }) {
       <h1 className="text-3xl font-bold text-center m-6">
         Search for Your Favorite Movie
       </h1>
-      <p className="text-lg text-center  text-gray-600">
-        Enter the name of the movie you're looking for and we'll find it for
-        you!
+      <p className="text-lg text-center text-gray-600">
+        {`Enter the name of the movie you're looking for and we'll find it for you!`}
       </p>
       <Results results={results} />
     </div>
