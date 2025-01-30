@@ -3,7 +3,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 
 
-To configure your API key, create a .env file in the root of your project and add the following line:
+
+for get api key visit https://www.omdbapi.com/apikey.aspx
+and  configure your API key, create a .env file in the root of your project and add the following line:
 
 ```bash
 NEXT_PUBLIC_API_URL='https://www.omdbapi.com'
