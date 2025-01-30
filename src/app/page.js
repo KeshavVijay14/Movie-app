@@ -1,7 +1,7 @@
 import Results from "@/components/Results";
 
 const API_KEY = process.env.NEXT_PUBLIC_API_KEY;
-const API_URL = process.env.NEXT_PUBLIC_API_Url;
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
 export default async function Home({ searchParams }) {
   let results = [];
